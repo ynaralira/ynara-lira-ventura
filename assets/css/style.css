@@ -1,5 +1,7 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -7,12 +9,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #dc5ef9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #fa57dc;
   text-decoration: none;
 }
 
@@ -35,7 +37,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #dc5ef9;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +51,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #dc5ef9;
   color: #fff;
 }
 
@@ -114,7 +116,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #dc5ef9;
   color: #fff;
   text-decoration: none;
 }
@@ -182,7 +184,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #d353ef;
 }
 
 /* Mobile Navigation */
@@ -195,7 +197,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #dc5ef9;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -261,7 +263,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #dc5ef9;
 }
 
 @media (min-width: 1024px) {
@@ -314,7 +316,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #dc5ef9;
   bottom: 0;
   left: 0;
 }
@@ -350,7 +352,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #dc5ef9;
   line-height: 0;
 }
 
@@ -373,7 +375,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #dc5ef9;
   float: left;
   line-height: 0;
 }
@@ -406,7 +408,7 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #dc5ef9;
 }
 
 /*--------------------------------------------------------------
@@ -443,7 +445,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #dc5ef9;
 }
 
 /*--------------------------------------------------------------
@@ -460,7 +462,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #dc5ef9;
   position: relative;
 }
 
@@ -527,7 +529,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #dc5ef9;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -554,6 +556,11 @@ section {
   opacity: 0;
 }
 
+#btn{
+  background-color: #cf20f7;
+  border: none;
+}
+
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -576,11 +583,11 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #dc5ef9;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #dc5ef9;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -617,11 +624,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #da52f9;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #dc5ef9;
 }
 
 .portfolio-details .portfolio-info {
@@ -675,10 +682,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #dc5ef9;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #dc5ef9;
 }
 
 .services .icon i {
@@ -692,7 +699,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #dc5ef9;
 }
 
 .services .title {
@@ -707,7 +714,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #dc5ef9;
 }
 
 .services .description {
@@ -801,11 +808,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #dc5ef9;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #dc5ef9;
 }
 
 /*--------------------------------------------------------------
@@ -875,122 +882,17 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #dc5ef9;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #dc5ef9;
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact .php-email-form label {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #149ddd;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
