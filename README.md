@@ -1,8 +1,8 @@
 <h4>Este projeto foi desenvolvido com bootstrap e javascript</h4>
+<p>O objetivo é mostrar um pouco sobre mim, minhas habilidades, formações, tecnologias e meus projetos realizados.</p>
 <br>
-<p>O objetivo é mostrar um pouco sobre mim, minhas habilidades, formações, tecnologias e meus projetos realizados</p>
+Link para vizualizar projeto: <a href="https://ynaralira.github.io/u/">Acessar projeto</a>
 <br>
-Link para vizualizar projeto: <a href="https://ynaralira.github.io/u/">Ver Portfolio</a>
 <br>
 <h5>Página principal - Sobre mim</h5>
 <img src="assets/img/img-1.png">
