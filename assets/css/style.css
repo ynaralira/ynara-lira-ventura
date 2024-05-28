@@ -10,18 +10,9 @@ body {
   transition: background-color 0.3s ease;
 
 }
-.theme-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .form-check-input {
   margin: 0;
-}
-
-#themeIcon {
-  margin-left: 20px;
 }
 
 a {
