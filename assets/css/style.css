@@ -5,7 +5,23 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+
+}
+.theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-check-input {
+  margin: 0;
+}
+
+#themeIcon {
+  margin-left: 20px;
 }
 
 a {
@@ -58,6 +74,15 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.cards{
+  box-shadow: #c1c1c1 0px 0px 4px;
+  height: 20vh;
+}
+
+.cards:hover{
+  box-shadow: #ca56ed 0px 0px 4px;
 }
 
 /*--------------------------------------------------------------
@@ -294,12 +319,48 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background: #f5f8fd;
+.theme-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-theme {
+  background-color: #242222;
+  color: #e6e4e4;
+  box-shadow: #202020 1px 1px 1px;
+}
+
+.dark-theme .cards {
+  background-color: #2b2a2a;
+  color: #e6e4e4;
+  border: none;
+  box-shadow: #838282 1px 1px 5px;
+}
+
+#themeButton{
+  display: flex;
+  justify-content: center;
+}
+
+#themeIcon{
+  width: 70%;
+}
+
+.theme-button:hover {
+  filter: brightness(0.9);
 }
 
 .section-title {
   padding-bottom: 30px;
+}
+
+.dark-theme h4 {
+  color: rgb(255, 141, 251);
 }
 
 .section-title h2 {
@@ -308,8 +369,13 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
 }
+
+
+.dark-theme .section-title h2 {
+  color: rgb(245, 207, 244);
+}
+
 
 .section-title h2::after {
   content: "";
@@ -317,10 +383,15 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #dc5ef9;
   bottom: 0;
   left: 0;
 }
+
+
+.section-title h2::after {
+  background: #cc49ea;
+}
+
 
 .section-title p {
   margin-bottom: 0;
@@ -332,7 +403,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #000000;
 }
 
 .about .content ul {
@@ -473,7 +544,6 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
   margin-bottom: 10px;
 }
 
@@ -578,7 +648,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(157, 20, 221, 0.75);
   transition: 0.3s;
   width: 50%;
 }
@@ -856,7 +926,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #000000;
 }
 
 .contact .info .email p {
