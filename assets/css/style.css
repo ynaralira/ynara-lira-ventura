@@ -321,13 +321,13 @@ section {
 }
 
 .dark-theme {
-  background-color: #242222;
+  background-color: #000000;
   color: #e6e4e4;
   box-shadow: #202020 1px 1px 1px;
 }
 
 .dark-theme .cards {
-  background-color: #2b2a2a;
+  background-color: #0e0e0e;
   color: #e6e4e4;
   border: none;
   box-shadow: #838282 1px 1px 5px;
