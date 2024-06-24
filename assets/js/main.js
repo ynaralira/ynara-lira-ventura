@@ -28,7 +28,6 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
-
   
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
@@ -44,10 +43,9 @@
       }
     })
   }
+
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
-
- 
   const scrollto = (el) => {
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -115,21 +113,6 @@
       backDelay: 2000
     });
   }
-
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
-
 
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');

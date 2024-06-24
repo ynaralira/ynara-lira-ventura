@@ -149,6 +149,14 @@ h6 {
   #main {
     margin-left: 0;
   }
+  
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
 }
 
 /*--------------------------------------------------------------
