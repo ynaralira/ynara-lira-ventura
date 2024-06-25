@@ -335,10 +335,10 @@ section {
 }
 
 .dark-theme .cards {
-  background-color: #0e0e0e;
-  color: #e6e4e4;
-  border: none;
-  box-shadow: #838282 1px 1px 5px;
+    background-color: #292929;
+    color: #e6e4e4;
+    border: none;
+    box-shadow: #da95e6 1px 4px 10px;
 }
 
 #themeButton{
