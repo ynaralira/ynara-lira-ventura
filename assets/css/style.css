@@ -149,6 +149,14 @@ h6 {
   #main {
     margin-left: 0;
   }
+
+.about{
+  flex-direction: column;
+}
+
+.about > p{
+  max-width: 100%;
+}
   
 }
 
@@ -157,14 +165,6 @@ h6 {
   justify-content: center;
   align-items: center;
   width: 15rem;
-}
-
-.about{
-  flex-direction: column;
-}
-
-.about > p{
-  max-width: 100%;
 }
 
 /*--------------------------------------------------------------
