@@ -161,6 +161,11 @@ h6 {
 .about > p{
   max-width: 100%;
 }
+
+.portfolio #portfolio-flters li {
+  padding: 5px 5px 5px 5px;
+  font-size: 11px;
+}
   
 }
 
